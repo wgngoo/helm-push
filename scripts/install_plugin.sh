@@ -23,7 +23,7 @@ echo $url
 
 mkdir -p "bin"
 mkdir -p "releases/v${version}"
-mv /usr/local/helm-push_0.8.1_linux_amd64.tar.gz releases/
+mv /usr/local/helm-push_0.8.1_linux_amd64.tar.gz releases/v${version}.tar.gz
 
 # Download with curl if possible.
 # if [ -x "$(which curl 2>/dev/null)" ]; then
